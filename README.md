@@ -11,7 +11,7 @@ Stringer is tools for generate random string for golang. Stringer is have type:
 ### Installing
 
 ```sh
-$ go get github.com/dedidot/generate/string
+$ go get github.com/dedidot/generate/stringer
 ```
 
 ### Usage
@@ -23,5 +23,8 @@ import(
 ```
 
 ```sh
-strRandom := stringer.RandomStr(18, "lowalnum")
+strRandom := stringer.RandomStr(18, "lowalnum") 
 ```
+
+18 = length
+lowalnum = type
